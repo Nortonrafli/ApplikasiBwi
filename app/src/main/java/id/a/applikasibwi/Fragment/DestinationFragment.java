@@ -11,17 +11,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
 import id.a.applikasibwi.R;
+import id.a.applikasibwi.Activity.DetailActivity;
 
-/**
- * A simple {@link Fragment} subclass.
- * Activities that contain this fragment must implement the
- * {@link DestinationFragment.OnFragmentInteractionListener} interface
- * to handle interaction events.
- * Use the {@link DestinationFragment#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class DestinationFragment extends Fragment {
     LinearLayout detail;
 
@@ -34,7 +27,7 @@ public class DestinationFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_home, container, false);
+        View view = inflater.inflate(R.layout.fragment_destination2, container, false);
         detail = view.findViewById(R.id.detail);
         detail.setOnClickListener(new View.OnClickListener() {
             @Override
