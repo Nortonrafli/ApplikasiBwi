@@ -39,10 +39,10 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
     public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
         Fragment fragment = null;
         switch (menuItem.getItemId()) {
-            case R.id.action_home:
+            case R.id.action_Destination:
                 fragment = new DestinationFragment();
                 break;
-            case R.id.action_download:
+            case R.id.action_Booking:
                 fragment = new BookingFragment();
                 break;
         }
@@ -59,7 +59,7 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
 //        startActivity(intent);
     }
 
-//    public void btn_handler_mountain(View view) {
+//    public void btn_handler_forest(View view) {
 //        Intent intent = new Intent(this, MountainActivity.class);
 //        startActivity(intent);
 //    }

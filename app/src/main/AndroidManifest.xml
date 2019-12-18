@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.ForestActivity"></activity>
+        <activity android:name=".Activity.ijenActivity"></activity>
+        <activity android:name=".Activity.ForestActivity" />
         <activity android:name=".Activity.BeachActivity" />
         <activity android:name=".Activity.MountainActivity" />
         <activity android:name=".Activity.WelcomeActivity" />
