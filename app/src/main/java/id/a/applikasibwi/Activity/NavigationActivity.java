@@ -1,17 +1,15 @@
 package id.a.applikasibwi.Activity;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
-
 import android.os.Bundle;
 import android.view.MenuItem;
-
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import id.a.applikasibwi.Fragment.BookingFragment;
 import id.a.applikasibwi.Fragment.DestinationFragment;
 import id.a.applikasibwi.R;
 
-public class NavigationActivity extends AppCompatActivity {
+public class NavigationActivity extends AppCompatActivity implements BottomNavigationView.OnNavigationItemSelectedListener {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
