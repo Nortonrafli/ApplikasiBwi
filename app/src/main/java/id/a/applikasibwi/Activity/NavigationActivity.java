@@ -2,8 +2,12 @@ package id.a.applikasibwi.Activity;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import id.a.applikasibwi.Fragment.BookingFragment;
 import id.a.applikasibwi.Fragment.DestinationFragment;
@@ -45,8 +49,18 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
         return loadFragment(fragment);
     }
 
-    @Override
-    public void onPointerCaptureChanged(boolean hasCapture) {
-
+    public void btn_handler_mountain(View view) {
+        Intent intent = new Intent(this, MountainActivity.class);
+        startActivity(intent);
     }
+
+    public void btn_handler_beach(View view) {
+//        Intent intent = new Intent(this, BeachActivity.class);
+//        startActivity(intent);
+    }
+
+//    public void btn_handler_mountain(View view) {
+//        Intent intent = new Intent(this, MountainActivity.class);
+//        startActivity(intent);
+//    }
 }

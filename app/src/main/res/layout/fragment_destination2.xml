@@ -1,100 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_margin="20dp"
-    android:layout_height="wrap_content"
-    android:background="@android:color/white"
-    android:orientation="vertical"
-    tools:context=".Fragment.DestinationFragment" >
+    android:layout_height="match_parent"
+    android:background="@color/abu2"
+    tools:context=".Fragment.DestinationFragment">
 
-    <LinearLayout
-        android:id="@+id/detail"
-        android:layout_width="match_parent"
-        android:layout_margin="20dp"
+    <ImageButton
+        android:id="@+id/imageMountain"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:orientation="vertical"
-        tools:context=".fragment.DestinationFragment" >
+        android:layout_marginTop="40dp"
+        android:onClick="btn_handler_mountain"
+        android:src="@drawable/logomountaine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick" />
 
-        <!-- TODO: Update blank fragment layout -->
-
-        <ImageView
-            android:layout_width="206dp"
-            android:layout_height="150dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/logomountaine">
-
-        </ImageView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/detail2"
-        android:layout_width="match_parent"
-        android:layout_margin="20dp"
+    <ImageButton
+        android:id="@+id/imageBeach"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@android:color/white"
-        android:orientation="vertical"
-        tools:context=".fragment.DestinationFragment" >
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logobeach"
+        android:onClick="btn_handler_beach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mountine"
+        tools:ignore="OnClick" />
 
-        <!-- TODO: Update blank fragment layout -->
-
-        <ImageView
-            android:layout_width="200dp"
-            android:layout_height="181dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/logobeach">
-
-        </ImageView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:orientation="horizontal"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp">
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/detail3"
-        android:layout_width="match_parent"
+    <ImageButton
+        android:id="@+id/imageForest"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:background="@android:color/white"
-        android:orientation="vertical"
-        tools:context=".fragment.DestinationFragment">
+        android:layout_marginTop="16dp"
+        android:src="@drawable/logoforest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
-        <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/mountine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Mountain"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageMountain" />
 
-        <ImageView
-            android:layout_width="202dp"
-            android:layout_height="156dp"
-            android:scaleType="fitXY"
-            android:src="@drawable/logoforest">
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Beach"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageBeach" />
 
-        </ImageView>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:orientation="horizontal">
-
-
-        </LinearLayout>
-
-    </LinearLayout>
-</LinearLayout>
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Forest"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageForest"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

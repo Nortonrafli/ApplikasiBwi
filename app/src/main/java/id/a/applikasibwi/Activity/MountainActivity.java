@@ -6,11 +6,11 @@ import android.os.Bundle;
 
 import id.a.applikasibwi.R;
 
-public class DetailActivity extends AppCompatActivity {
+public class MountainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_detail);
+        setContentView(R.layout.activity_mountain);
     }
 }

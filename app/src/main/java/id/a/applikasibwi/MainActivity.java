@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Handler;
 import android.os.Bundle;
 import android.content.Intent;
+
 import id.a.applikasibwi.Activity.WelcomeActivity;
-import id.a.applikasibwi.R;
 
 public class MainActivity extends AppCompatActivity {
 
