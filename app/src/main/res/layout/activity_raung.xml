@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.raungActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/raung2" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunung Raung (puncak tertinggi: 3.260 m dpl)[butuh rujukan] adalah gunung berapi kerucut yang terletak di ujung timur Pulau Jawa, Indonesia. Secara administratif, kawasan gunung ini termasuk dalam wilayah tiga kabupaten di wilayah Besuki, Jawa Timur, yaitu Banyuwangi, Bondowoso, dan Jember.  Secara geografis, lokasi gunung ini berada dalam kawasan kompleks Pegunungan Ijen dan menjadi puncak tertinggi dari gugusan pegunungan tersebut. Dihitung dari titik tertinggi, Gunung Raung merupakan gunung tertinggi ketiga di Jawa Timur setelah Gunung Semeru dan Gunung Arjuno, serta menjadi yang tertinggi keempat di Pulau Jawa. Kaldera Gunung Raung juga merupakan kaldera kering yang terbesar di Pulau Jawa dan terbesar kedua di Indonesia setelah Gunung Tambora di Nusa Tenggara Barat[2]. Terdapat empat titik puncak, yaitu Puncak Bendera, Puncak 17, Puncak Tusuk Gigi, dan, yang tertinggi, Puncak Sejati (3.344 m).[butuh rujukan]  Dilihat dari vegetasinya, Gunung Raung memunyai kawasan hutan Dipterokarp Bukit, hutan Dipterokarp Atas, hutan Montane, dan hutan Ericaceous atau hutan gunung." />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunung Raung memiliki ketinggian 3.332 mdpl dan berada di wilayah Kabupaten Banyuwangi, Bondowoso dan Jember. Akses menuju puncak Gunung Raung pun tidak hanya satu, bisa melewati via Kalibaru Banyuwangi atau via Bondowoso.  Jalur menuju puncak Raung via Bondowoso memiliki medan yang cukup ringan bila dibandingkan dengan via Banyuwangi. Pendakian kali ini melalui jalur via Bondowoso. Basecamp Gunung Raung via Bondowoso terletak di Kecamatan Sumber Wringin.  Dari jalan raya untuk menuju desa ini tidak terdapat rambu-rambu yang jelas, karena pendakian Gunung Raung sendiri memang tidak banyak peminatnya. Sedikitnya peminat ini dikarenakan medan di Gunung Raung yang dirasa sangat berat. Tiket didapatkan di Basecamp dengan harga 20 ribu setiap orangnya. Sayangnya letak basecamp dengan jalur pendakian masih berkisar 2,5 km. Sepeda diparkir di rumah warga dengan biaya parkir seikhlasnya.   Yang membuat istimewa yaitu di Gunung Raung terdapat istilah Jembatan Shiratal Mustaqim. Jembatan ini sebenarnya gundukan tanah yang berukuran 1 jengkal dengan kanan kiri jurang. Dijuluki Jembatan Shiratal Mustaqim karena sempit dan menyeramkan. Melewatinya pun harus merangkak terlebih dahulu. Jembatan ini terdapat di perjalanan dari pos deden menuju puncak.  Pendakian dimulai dengan melewati perkebunan kopi dengan estimasi waktu satu jam sampailah di pos motor, setelah melewati kebun kopi disambut jalan setapak kecil dengan jalanan sedikit menanjak.  Jika tidak ingin terlalu capek tersedia jasa ojek yang mengangkut dari rumah warga menuju pos motor dengan biaya 25 ribu setiap orangnya. Terdapat beberapa pos yang dilalui saat pendakian Gunung Raung ini di antaranya pos motor, pos aborsi, pos sumur, pos demit, pos mayit, pos angin, pos deden, dan yang terakhir puncak.  Estimasi waktu perjalanan dari pos motor menuju pos aborsi sekitar 3 jam dengan medan jalan setapak menanjak sudut kemiringan 30 derajat. Dari pos aborsi menuju sumur hanya 10 menit dengan jalan setapak menanjak sudut kemiringan 20 derajat.  Pos sumur menuju pos demit membutuhkan waktu 3-4 jam dengan medan jalanan setapak menanjak sudut kemiringan 50-70 derajat. Pos demit menuju pos mayit membutuhkan waktu 30 menit dengan jalanan setapak menanjak sudut kemiringan 20-30 derajat. Pos demit menuju pos angin membutuhkan waktu 2-3 jam.  Setelah dari pos angin menuju pos deden hanya 30 menit. Pos deden merupakan batas vegetasi. Pos deden menuju puncak membutuhkan waktu 30 menit dengan medan bebatuan menanjak sudut kemiringan 40-50 derajat. Estimasi waktu perjalanan ini tentunya juga tergantung pada kecepatan jalannya juga.  Lelah terbayar setelah melihat pemandangan di puncak Gunung Raung. Puncak Gunung Raung memiliki kaldera terbesar se-Pulau Jawa. Lekukan indah relief-relief batu mengelilingi kaldera Gunung Raung. Sayangnya, terdapat batas waktu saat di puncak yaitu pada jam 10.00 semua pendaki harus sudah turun dari puncak. Aturan ini dibuat karena pada saat pukul 10.00 ke atas cuaca sering tidak stabil, terkadang juga terjadi badai.  Sebelum melakukan pendakian di Gunung Raung pastikan fisik benar-benar dalam keadaan sehat. Bawalah bekal makanan dan minuman secukupnya karena pendakian Gunung Raung via Bondowoso ini tidak terdapat sumber mata air.  Usahakan 1 orang minimal 3 botol. Mantel dan penghangat sangat diperlukan dalam pendakian Gunung Raung ini karena cuaca sangat mudah berubah-ubah. Untuk menambah stamina bawalah makanan yang manis-manis seperti madu, cokelat, atau gula." />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/raung1" />
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,12 +10,12 @@
     <string name="appbar_scrolling_view_behavior" />
 
 
-        <string-array name="android_dropdown_arrays">
-            <item>Choose Destinations</item>
-            <item>Mountain</item>
-            <item>Forest</item>
-            <item>Beach</item>
+    <string-array name="android_dropdown_arrays">
+        <item>Choose Destinations</item>
+        <item>Mountain</item>
+        <item>Forest</item>
+        <item>Beach</item>
 
-        </string-array>
+    </string-array>
 
 </resources>

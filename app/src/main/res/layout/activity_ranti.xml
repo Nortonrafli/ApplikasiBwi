@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.rantiActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="276dp"
+                app:srcCompat="@drawable/ranti1" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunung Ranti merupakan salah satu gunung tropis yang ada di Jawa Timur. Gunung Ranti ini berlokasi di bagian ujung timur pulau jawa tepatnya di Kabupaten Banyuwangi. Gunung ini tidak jauh dari pusat kota banyuwangi, hanya berjarak kurang lebih 60KM ke arah barat. Gunung ini bersebelahan dengan Gunung Ijen yang terkenal dengan Blue Fire nya.  Banyak yang tidak tau bahwa Banyuwangi tidak hanya memiliki Gunung Ijen, dan Gunung Raung saja. Banyuwangi memiliki beberapa deretan Pegunungan yaitu, Gunung Ijen, Gunung Raung, Gunung Ranti, Gunung Merapi, dan Gunung Remuk.  Gunung Ranti sendiri baru dibuka untuk umum pada bulan April 2017. Sebelumnya Gunung ini sudah banyak didaki oleh beberapa komunitas Pecinta Alam, jalurnya sendiri pun di buat oleh beberapa komunitas pecinta alam dan juga warga sekitar. Setelah dilakukan survei dan observasi serta dinyatakan aman untuk umum, mulailah warga sekitar dan komunitas pecinta alam membuka pendakian untuk umum." />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gunung ini memiliki jalur pendakian yang bisa dibilang singkat yaitu 3-4 jam pendakian untuk seorang pemula. Namun, gunung ini juga memiliki jalur yang terbilang ekstrim karena sepanjang pendakian kita disuguhi jalur dengan kemiringan 60 derajat, ada juga yang memiliki kemiringan hampir 90 derajat. Gunung ini masih sangat asri dan masih banyak hewan liar yang berkeliaran seperti babi hutan dan ayam hutan.  Jalur yang sulit ini akan terbayarkan ketika kita sampai dipuncak gunung ini. Dari puncak gunung ini kita bisa melihat keindahan gunung ijen dari kejauhan dan juga keindahan kawah wurung. Bukan hanya itu saja menjelang pagi kita akan disuguhkan dengan awan yang berada dibawah gunung yang membuat kita seakan berada di atas awan. Keindahan matahari terbit pun menjadi salah satu keindahan yang bisa kita dapatkan di gunung ini." />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
