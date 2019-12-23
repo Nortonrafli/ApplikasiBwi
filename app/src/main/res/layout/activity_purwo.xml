@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.PurwoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/purwo1" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secara umum tipe hutan di kawasan TN Alas Purwo merupakan hutan hujan dataran rendah. Hutan bambu merupakan formasi yang dominan, ± 40 % dari total luas hutan yang ada. Sampai saat ini telah tercatat sedikitnya 584 jenis tumbuhan yang terdiri dari rumput, herba, semak, liana, dan pohon.  Berdasarkan tipe ekosistemnya, hutan di TN Alas Purwo dapat di kelompokkan menjadi hutan bambu, hutan pantai, hutan bakau/mangrove, hutan tanaman, hutan alam, dan padang penggembalaan (Feeding Ground).  Keanekaragaman jenis fauna di kawasan TN Alas Purwo secara garis besar dapat dibedakan menjadi 4 kelas yaitu Mamalia, Aves, Pisces dan Reptilia. Mamalia yang tercatat sebanyak 31 jenis, di antaranya yaitu: Banteng (Bos javanicus), Rusa (Cervus timorensis), Ajag (Cuon alpinus), Babi Hutan (Sus scrofa), Kijang (Muntiacus muntjak), Macan Tutul (Panthera pardus), Lutung (Trachypithecus auratus), Kera Abu-abu (Macaca fascicularis), dan Biawak (Varanus salvator).  Burung yang telah berhasil diidentifikasi berjumlah 236 jenis terdiri dari burung darat dan burung air, beberapa jenis di antaranya merupakan burung migran yang telah berhasil diidentifikasi berjumlah 39 jenis. Jenis burung yang mudah dilihat antara lain: Ayam Hutan (Gallus gallus), Kangkareng (Antracoceros coronatus), Rangkok (Buceros undulatus), Merak (Pavo muticus) dan Cekakak jawa (Halcyon cyanoventris). Sedangkan untuk reptil telah teridentifikasi sebanyak 20 jenis." />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bertapa, semedi, sayan (gotong-royong sewaktu mendirikan rumah), bayenan serta selamatan – selamatan lain yang berkaitan dengan pencarian ketenangan bathin masih dilaksanakan. Pada hari – hari tertentu seperti 1 suro, bulan purnama, bulan mati, masyarakat datang ke kawasan TN Alas Purwo untuk bersemedi. Tempat ini pun sangat terkenal dengan keangkerannya. Dahulu banyak orang yang tersesat dan dirampok serta dibunuh oleh perampok yang berdiam di Alas purwo. Disana juga banyak terdapat tempat Mahluk Halus berada .Sehingga Sampai kini tempat ini masih terkenal keangkeran-nya sebagai tempat terangker di Pulau Jawa." />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/purwo3" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

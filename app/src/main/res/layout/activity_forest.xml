@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/abu2"
     tools:context=".Activity.ForestActivity">
 
     <ImageButton
@@ -17,31 +18,39 @@
 
     <TextView
         android:id="@+id/textView20"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
         android:text="Baluran" />
 
     <ImageButton
         android:id="@+id/imageButton4"
         android:layout_width="match_parent"
         android:layout_height="189dp"
-        app:srcCompat="@drawable/djawatan" />
+        app:srcCompat="@drawable/djawatan"
+        android:onClick="btn_handler_djawatan"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/textView24"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:text="Djawatan" />
 
     <ImageButton
         android:id="@+id/imageButton6"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/purwo2" />
+        app:srcCompat="@drawable/purwo2"
+        android:onClick="btn_handler_purwo"
+        tools:ignore="OnClick" />
 
     <TextView
         android:id="@+id/textView25"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_gravity="center"
         android:text="Alas Purwo" />
 </LinearLayout>

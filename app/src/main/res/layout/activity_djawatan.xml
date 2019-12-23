@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.DjawatanActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/djawatan1" />
+
+            <TextView
+                android:id="@+id/textView40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hutan de Djawatan Benculuk awalnya terdapat bangunan yang digunakan sebagai tempat pengelolaan kereta api. Namun kini, hutan yang berisi pohon trembesi tersebut sudah berganti fungsi menjadi destinasi wisata yang hits abis. Banyak motor dan mobil pengunjung yang mendatangi hutan yang seperti di film Lord of The Rings tersebut. Hutan ini biasanya ramai dikunjungi pada sore hari, ketika cahaya matahari samar-samar menelusup di rimbunnya pepohonan di hutan ini." />
+
+            <TextView
+                android:id="@+id/textView41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebagai spot foto, tentu Hutan De Djawatan ini kian dipercantik dengan pernak-pernik khas destinasi hits. Ya meskipun pepohonan yang berpadu dengan cahaya matahari sudah sangat sempurna untuk hunting foto, tapi tak lengkap apabila tidak ada signage lokasi wisata maupun payung-payung cantik. Terlebih dibangun juga rumah-rumah pohon yang kece abis. Hal ini tentu sangat memuaskan hasrat kaum pecinta spot-spot instagramable bukan? Hehehe." />
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lokasinya tak terlalu jauh dari pusat kota, sekitar setengah jam perjalanan saja. Tempat ini masuknya gratis lho, cuma bayar parkir saja. Ketika weekend atau libur panjang tiba, banyak sekali pengunjung yang meramaikan tempat ini. Terlebih ketika sore hari tiba." />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/djawatan2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.telukijoActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="319dp"
+                app:srcCompat="@drawable/ti2" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teluk Hijau adalah objek wisata pantai yang berada dalam areal Taman Nasional Meru Betiri, Sarongan, Pesanggaran, Banyuwangi. Lokasinya berjarak sekitar 90 kilometer dari Kota Banyuwangi. Dinamai demikian dikarenakan air lautnya yang cenderung berwarna hijau" />
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dari Kota Banyuwangi menuju ke arah selatan melewati Kabat, Rogojampi, Srono, Cluring, hingga tiba di simpang empat Desa Jajag, kemudian belok kiri. Kemudian pengendara tiba di sebuah simpang empat. Pengendara dapat mengambil arah serong kiri melewati Desa Sambirejo dan Desa Seneporejo kemudian tembus di Pasar Kesilir. Atau mengambil arah lurus (melewati Desa Gambiran, Jembatan Gambiran-Bangorejo, lalu belok kiri arah Pedotan melewati Tugu Tani Gunungsari dan Monumen P. Kusno, kemudian tiba di simpang empat dan belok kanan hingga tiba di persimpangan Pedotan. Setelah itu pengendara bisa memilih mengambil arah kiri melewati Buk Putih hingga tiba di simpang empat Siliragung, atau mengambil arah terus melewati Desa Sukorejo dan Desa Kesilir dan tiba juga di simpang empat Siliragung. Dari simpang Siliragung pengendara dapat mengambil arah serong kiri meewati Kantor Camat Siliragung, Polsek Siliragung, lalu tiba di simpang empat dan belok kanan melewati Jembatan Kalibaru dan tiba di simpang empat Pasar Sanggar, atau mengambil arah lurus melewati Jembatan Siliragung-Sumbermulyo dan Jalan Ahmad Kusnan dan tiba di simpang empat Pasar Sanggar. Jika pengendara dari simpang empat Siliragung mengambil arah lurus, tiba di Persimpangan Penyu dapat langsung belok kanan tanpa melewati Pasar Sanggar, melewati jalur ini akan bertemu di satu titik (Kantor Desa Sumbermulyo) dengan pengendara dari arah Pasar Sanggar. Dari Kantor Desa Sumbermulyo belok kiri menuju Desa Sumberagung. Setelah itu pengendara tiba di Persimpangan Pancer, ambil arah lurus melewati jalur Gunung Gamping dan Perkebunan Sungailembu. Dari sini kondisi jalan masih baik hingga tiba di makam Sungailembu di mana sebelumnya pengendara belok kiri di Persimpangan Pabrik. Dari makam jalan lurus hingga tiba di Persimpangan Kandangan. Dari sana, pengendara dapat mengambil arah kiri melewati pemukiman warga di Desa Kandangan dan jembatan kayu Kandangan-Sarongan atau mengambil arah lurus melewati Afdeling Sumberbopong Sungailembu dan Perkebunan Sumberjambe. Kedua jalur ini akan mengarah ke Terminal/Pasar Sarongan. Dari Pasar pengendara menuju ke arah selatan melewati Gereja Pantekosta, Kantor Desa Sarongan, Dusun Besaran, Dusun Bayuran dan Dusun Rajegwesi dan tiba di pos pemeriksaan dan tiket. Dari pos pengendara dapat mengambil arah serong kiri (melewati Pantai Rajegwesi lalu belok kanan) atau mengambil arah lurus (melewati Perumahan Tsunami) hingga tiba di kawasan parkir kendaraan yang terletak di kawasan Teluk Damai. Dari sini perjalanan dilanjutkan dengan jalan kaki mendaki jalur sepanjang 1 km di bukit kecil di tiba di Pantai Batu. Dari Pantai Batu, Teluk Hijau hanya berjarak sekitar 300 meter. Total perjalanan adalah sekitar 91 km." />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ti" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -60,7 +60,7 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
     }
 
     public void btn_handler_forest(View view) {
-        Intent intent = new Intent(this, MountainActivity.class);
+        Intent intent = new Intent(this, ForestActivity.class);
         startActivity(intent);
     }
 }

@@ -20,4 +20,14 @@ public class ForestActivity extends AppCompatActivity {
         Intent inten = new Intent(this, BaluranActivity.class);
         startActivity(inten);
     }
+
+    public void btn_handler_djawatan(View view) {
+        Intent inten = new Intent(this, DjawatanActivity.class);
+        startActivity(inten);
+    }
+
+    public void btn_handler_purwo(View view) {
+        Intent inten = new Intent(this, PurwoActivity.class);
+        startActivity(inten);
+    }
 }

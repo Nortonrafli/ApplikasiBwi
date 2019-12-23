@@ -1,9 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.wedirengActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/wi2" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pantai Wedi Ireng merupakan salah satu objek wisata Pantai yang ada di Banyuwangi. Perpaduan pasir putih dan hitam yang dimiliki oleh Pantai ini menjadi keunikan tersendiri untuk objek wisata Pantai di Banyuwangi ini.  Banyuwangi sendiri merupakan salah satu kabupaten di Jawa Timur. Sebagai kota yang letaknya di ujung timur pulau Jawa, membuat fajar pertama di pulau jawa terbit lebih awal disini. Pada kenyataannya, Kabupaten Banyuwangi tidak  begitu popular mengenai objek wisatanya, namun siapa sangka bahwa di kota tersebut memiliki banyak sekali permata wisata yang indah dan salah satunya ialah Pantai Wedi Ireng." />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jika anda tidak ingin repot-repot melewati rute yang menantang untuk mencapai lokasi Pantai Wedi Ireng ini, anda bisa menggunakan jalur laut yang tentunya lebih cepat dan praktis. Anda hanya perlu menuju Dusun Pancer, kemudian menyewa perahu nelayan setempat. Anda harus membayar sebesar Rp 40.000 untuk antar jemput, dan sekitar Rp 25.000 untuk satu kali perjalanan. Waktu yang anda perlukan untuk mencapai Pantai dengan menggunakan jalur laut ini hanya kurang lebih 30 menit saja." />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/wi" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

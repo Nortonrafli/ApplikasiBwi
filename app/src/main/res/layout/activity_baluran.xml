@@ -1,9 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.BaluranActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView17"
+                android:layout_width="422dp"
+                android:layout_height="264dp"
+                app:srcCompat="@drawable/baluran" />
+
+            <TextView
+                android:id="@+id/textView45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Taman Nasional Baluran IUCN Kategori II (Taman Nasional) Balurannationalpark.jpg Sabana Taman Nasional Baluran dengan latar belakang Gunung Baluran. Peta memperlihatkan letak Taman Nasional BaluranPeta memperlihatkan letak Taman Nasional BaluranTN. Baluran Menampilkan peta Kabupaten Situbondo Menampilkan peta Provinsi Jawa Timur Menampilkan peta Indonesia Tampilkan semua Lokasi di Kabupaten Situbondo dan Jawa Timur Letak	Jawa Timur, Indonesia Kota terdekat	Banyuwangi dan Situbondo Koordinat	7°50′S 114°22′EKoordinat: 7°50′S 114°22′E Luas	250 km² Didirikan	1980 Pengunjung	10,192 (tahun 2007[1]) Pihak pengelola	Departemen Kehutanan Taman Nasional Baluran adalah salah satu Taman Nasional di Indonesia yang terletak di antara wilayah Wongsorejo, Banyuwangi dan Banyuputih, Situbondo, Jawa Timur, Indonesia. Nama dari Taman Nasional ini diambil dari nama gunung yang berada di daerah ini, yaitu Gunung Baluran. Gerbang untuk masuk ke Taman Nasional Baluran berada di 7°55'17.76&quot;S dan 114°23'15.27&quot;E. Taman nasional ini terdiri dari tipe vegetasi sabana, hutan mangrove, hutan musim, hutan pantai, hutan pegunungan bawah, hutan rawa dan hutan yang selalu hijau sepanjang tahun. Tipe vegetasi sabana mendominasi kawasan Taman Nasional Baluran yakni sekitar 40 persen dari total luas lahan." />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sebelum tahun 1928 AH. Loedeboer, seorang pemburu kebangsaan Belanda yang memiliki daerah Konsesi perkebunan di Labuhan Merak dan Gunung Mesigit, pernah singgah di Baluran. Dia telah menaruh perhatian dan meyakini bahwa Baluran mempunyai nilai penting untuk perlindungan satwa, khususnya jenis mamalia besar.  Pada tahun 1930 KW. Dammerman yang menjabat sebagai Direktur Kebun Raya Bogor mengusulkan perlunya Baluran ditunjuk sebagai hutan lindung.  Pada tahun 1937 Gubernur Jenderal Hindia Belanda menetapkan Baluran sebagai Suaka Margasatwa dengan ketetapan GB. No. 9 tanggal 25 September 1937 Stbl. 1937 No. 544.  Pada masa pasca kemerdekaan, Baluran ditetapkan kembali sebagai Suaka Margasatwa oleh Menteri Pertanian dan Agraria Republik Indonesia dengan Surat Keputusan Nomor. SK/II/1962 tanggal 11 Mei 1962.  Pada tanggal 6 Maret 1980, bertepatan dengan hari Strategi Pelestarian se-Dunia, Suaka Margasatwa Baluran oleh menteri Pertanian diumumkan sebagai Taman Nasional.[2]" />
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/baluran2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

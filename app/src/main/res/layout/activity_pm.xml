@@ -1,9 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.pmActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                app:srcCompat="@drawable/pm" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pulau Merah atau Pulo Merah adalah sebuah pantai dan objek wisata di Kecamatan Pesanggaran, Banyuwangi. Pantai ini dikenal karena sebuah bukit hijau kecil dengan tanah berwarna merah yang terletak di dekat bibir pantai. Bukit ini dapat dikunjungi dengan berjalan kaki saat air laut surut.[1] Juga terdapat Pura di mana warga yang beragama Hindu di sana melaksanakan ibadah ataupun upacara Mekiyis. Kawasan wisata ini dikelola oleh Perum Perhutani Unit II Jawa Timur, KPH Banyuwangi Selatan." />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text='Pada tahun 1990-an, kawasan Pulau Merah pernah rusak parah akibat diterjang bencana tsunami.[2]  Pemerintah Kabupaten Banyuwangi di bawah kepemimpinan Bupati Abdullah Azwar Anas memberikan perhatian penuh terhadap pengembangan kawasan wisata ini, salah satunya dengan memperbaiki akses jalan menuju lokasi. Pada akhir 2012 lalu, Pemkab Banyuwangi telah memperkenalkan Pantai Pulau Merah ke dunia internasional melalui penyelenggaraan ajang lomba balap sepeda "Banyuwangi Tour de Ijen". Sebelum adanya "Tour de Ijen", akses jalan menuju Pantai Pulau Merah lumayan berat, berupa jalan berbatu yang melintasi area kebun dan juga sawah milik warga.  ' />
+
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ombak di kawasan Pulo Merah cukup menantang dan menjadi salah satu tempat ideal untuk penggemar olahraga selancar.[1] Ombak di pantai ini tergolong cukup tinggi berkisar 3-5 meter dan cocok untuk pecinta olahraga selancar (surfing). Menurut penuturan warga setempat, turis-turis asal Prancis, Jerman, dan Australia sering berkunjung ke tempat ini.[2]  President INSA atau Asosiasi Selancar Indonesia, Jro Made Supatra Karang, mengatakan bahwa pemandangan dan ombak di kawasan wisata Pulau Merah merupakan salah satu yang terbaik di Indonesia." />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pm2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
