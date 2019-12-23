@@ -9,11 +9,19 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.CalendarView;
+import android.widget.EditText;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 import id.a.applikasibwi.R;
 
 
 public class BookingFragment extends Fragment {
+
+
 
     public BookingFragment() {
         // Required empty public constructor
