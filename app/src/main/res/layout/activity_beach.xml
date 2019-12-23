@@ -43,7 +43,7 @@
     <ImageButton
         android:id="@+id/imageButton5"
         android:layout_width="match_parent"
-        android:layout_height="221dp"
+        android:layout_height="203dp"
         android:onClick="btn_handler_wediireng"
         app:srcCompat="@drawable/wi1"
         tools:ignore="OnClick" />

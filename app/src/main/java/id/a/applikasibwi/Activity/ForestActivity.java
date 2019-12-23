@@ -15,18 +15,9 @@ public class ForestActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_forest);
     }
-    public void btn_handler_telukijo(View view) {
-        Intent intent = new Intent(this, telukijoActivity.class);
-        startActivity(intent);
-    }
 
-    public void btn_handler_pulaumerah(View view) {
-        Intent intent = new Intent(this, pmActivity.class);
-        startActivity(intent);
-    }
-
-    public void btn_handler_wediireng(View view) {
-        Intent inten = new Intent(this, wedirengActivity.class);
+    public void btn_handler_baluran(View view) {
+        Intent inten = new Intent(this, BaluranActivity.class);
         startActivity(inten);
     }
 }
