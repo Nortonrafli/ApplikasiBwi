@@ -1,84 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
 
-    android:background="@color/abu2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/abu2"
+    android:orientation="vertical"
     tools:context=".Activity.MountainActivity">
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+    <ImageButton
+        android:id="@+id/imageIjen"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="btn_handler_ijen"
+        app:srcCompat="@drawable/ijen" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ijen Mountain"
+        android:gravity="center"
+        android:textSize="20dp" />
 
-            <ImageButton
-                android:id="@+id/imageIjen"
-                android:layout_width="213dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginEnd="16dp"
-                android:onClick="btn_handler_ijen"
-                app:srcCompat="@drawable/ijen" />
+    <ImageButton
+        android:id="@+id/imageRaung"
+        android:layout_width="382dp"
+        android:layout_height="162dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="btn_handler_raung"
+        app:srcCompat="@drawable/raung" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="373dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:fontFamily="sans-serif-black"
-                android:text="Ijen Mountain"
-                android:textSize="20dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Raung Mountain"
+        android:textSize="20dp" />
 
-            <ImageButton
-                android:id="@+id/imageRaung"
-                android:layout_width="216dp"
-                android:layout_height="156dp"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:onClick="btn_handler_raung"
-                app:srcCompat="@drawable/raung" />
+    <ImageButton
+        android:id="@+id/imageRanti"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="btn_handler_ranti"
+        app:srcCompat="@drawable/ranti"
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:fontFamily="sans-serif-black"
-                android:text="Raung Mountain"
-                android:textSize="20dp" />
+        />
 
-            <ImageButton
-                android:id="@+id/imageRanti"
-                android:layout_width="220dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:onClick="btn_handler_ranti"
-                app:srcCompat="@drawable/ranti" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Ranti Mountain"
+        android:gravity="center"
+        android:textSize="20dp" />
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="373dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
-                android:fontFamily="sans-serif-black"
-                android:text="Ranti Mountain"
-                android:textSize="20dp" />
-        </LinearLayout>
-    </ScrollView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
