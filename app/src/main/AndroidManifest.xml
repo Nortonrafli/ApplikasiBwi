@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activity.rantiActivity"></activity>
+        <activity android:name=".Activity.wedirengActivity"></activity>
+        <activity android:name=".Activity.telukijoActivity" />
+        <activity android:name=".Activity.pmActivity" />
+        <activity android:name=".Activity.rantiActivity" />
         <activity android:name=".Activity.raungActivity" />
         <activity android:name=".Activity.ijenActivity" />
         <activity android:name=".Activity.ForestActivity" />

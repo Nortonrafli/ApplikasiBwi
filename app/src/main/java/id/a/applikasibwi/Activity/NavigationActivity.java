@@ -55,12 +55,12 @@ public class NavigationActivity extends AppCompatActivity implements BottomNavig
     }
 
     public void btn_handler_beach(View view) {
-//        Intent intent = new Intent(this, BeachActivity.class);
-//        startActivity(intent);
+        Intent intent = new Intent(this, BeachActivity.class);
+        startActivity(intent);
     }
 
-//    public void btn_handler_forest(View view) {
-//        Intent intent = new Intent(this, MountainActivity.class);
-//        startActivity(intent);
-//    }
+    public void btn_handler_forest(View view) {
+        Intent intent = new Intent(this, MountainActivity.class);
+        startActivity(intent);
+    }
 }
