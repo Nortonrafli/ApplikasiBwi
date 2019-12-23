@@ -22,8 +22,12 @@ public class MountainActivity extends AppCompatActivity {
     }
 
     public void btn_handler_raung(View view) {
+        Intent intent = new Intent(this, raungActivity.class);
+        startActivity(intent);
     }
 
     public void btn_handler_ranti(View view) {
+        Intent inten = new Intent(this, rantiActivity.class);
+        startActivity(inten);
     }
 }
